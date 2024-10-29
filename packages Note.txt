@@ -1,0 +1,22 @@
+Note: rfce -> auto come some bacic file code
+======================Frontend=========================
+npx create-react-app client -> src, public will auto create
+npm i bootstrap
+npm install font-awesome
+npm i axios
+npm i react-router-dom
+npm i react-hot-toast
+======================Backend=========================
+cd backend
+npm install express mongoose dotenv
+npm install --save-dev nodemon
+.env file need create give database connection(MONGO_URI=mongodb://localhost:27017/ecommerce)
+ceate folder "config" and inside folder add db.js
+in backend folder add file server.js
+create folder models and inside product.js
+create folder routes and inside productRoutes.js
+npm i cors
+npm install multer
+npm run dev
+======================================================
+Backend in package need add this

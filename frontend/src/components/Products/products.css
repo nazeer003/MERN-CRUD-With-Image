@@ -1,0 +1,63 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  width: 300px;
+  margin: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.image-container {
+  position: relative;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.product-price {
+  font-size: 1.2em;
+  text-decoration:line-through;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.price-cont{
+  display:flex;
+  justify-content:start;
+  align-items:center
+}
+.star {
+  color: lightgray; /* Default star color */
+  font-size: 20px; /* Size of the star */
+}
+
+.star.filled {
+  color: gold; /* Color for filled stars */
+}
+
+.star-rating {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,41 @@
+/* header.css */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #165315;
+  width: 100%;
+  max-width: 100vw;
+  height: 33px;
+  padding: 0 20px;
+  border-bottom: 2px solid #e0e0e0;
+  box-sizing: border-box;
+}
+
+.header-paragraph {
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  flex: 1;
+}
+
+.callus-para {
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .header-paragraph, .callus-para {
+    font-size: 12px;
+  }
+
+  .main-header {
+    padding: 8px 15px;
+  }
+}
